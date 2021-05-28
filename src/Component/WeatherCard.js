@@ -10,9 +10,9 @@ const WeatherCard = (props) => {
         <div className="container mt-5">
             <div className="row">
                 <div className="col-lg-6">
-                    <h4>Temperature : {temp} </h4>
+                    <h4>Temperature : {temp} &#x2103;</h4>
                     <hr></hr>
-                    <h4>FeelsLike : {feelsLike}</h4>
+                    <h4>FeelsLike : {feelsLike} &#x2103;</h4>
                     <hr></hr>
                     <h4>Humidity : {humidity}</h4>
                     <hr></hr>
