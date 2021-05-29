@@ -20,7 +20,7 @@ class App extends Component{
 
   render(){
     const apiCall = (cityName)=>{
-    axios('http://api.openweathermap.org/data/2.5/weather?q='+cityName+'&appid=94ab2eed0b08a6d02d4f181f574c3dcd')
+    axios('https://api.openweathermap.org/data/2.5/weather?q='+cityName+'&appid=94ab2eed0b08a6d02d4f181f574c3dcd')
     .then((response)=>{
       this.setState({
         temp:response.data['main']['temp'],
